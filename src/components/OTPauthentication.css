@@ -1,0 +1,159 @@
+.outer-container{
+    width:475px;
+    background:#fff;
+    margin:65px auto;
+    border-radius:10px;
+    box-shadow:  0 0 25px rgba(0,0,0,0.2);
+    padding:40px;
+}
+
+.form-header{
+    text-align:center;
+    
+    font-family:"Poppins", Arial, Helvetica, sans-serif;
+    font-weight:600;
+    color:#2e3f51;
+    font-size:26px;
+    padding-bottom:10px;
+}
+
+.imageplace{
+    text-align:center;
+}
+
+.authimg{
+    width:63px;
+    height:auto;
+    
+}
+
+
+.txt{
+    padding-top:25px;
+    font-size:15px;
+    padding-bottom:30px;
+}
+
+.otp-errors{
+    font-size:12px;
+    color:red;
+    padding-top:7px;
+   border:none;
+}
+
+.email{
+    font-family:"Poppins", Arial, Helvetica, sans-serif;
+    border:2px solid #949494;
+    outline:none;
+    padding:10px;
+    width:87%;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    font-size:17px;
+    font-weight:400;
+}
+
+.arrowsubmit{
+    position: absolute;
+    right: 0;
+    background: #266aca;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 6px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.arrowsubmit span {
+    font-size: 20px;
+    line-height: 1;
+  }
+
+.arrowsubmit:hover{
+    cursor:pointer;
+}
+
+.email:focus{
+    border-bottom:2px solid; 
+    transition:0.5s ease;
+}
+
+.verify-btn{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.verify-btn input[type="submit"]{
+    padding:10px 20px;
+    font-size:14px;
+    font-weight:700;
+    background:#266aca;
+    color:#fff;
+    text-align:center;
+    border:none;
+    border-radius:5px;
+}
+
+.verify-btn input[type="submit"]:hover{
+    cursor:pointer;
+}
+
+.emailsend{
+    width: 100%;
+  margin-bottom: 15px;
+}
+
+.email-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+
+.otp-input-fields{
+    background:#f2faff;
+    max-width:400px;
+    display:flex;
+    margin-top:0px;
+    flex-direction:row;
+    justify-content:center;
+    padding-top:30px;
+    padding-bottom:30px;
+    gap:10px;
+}
+
+.otp_num{
+    width:40px;
+    text-align:center;
+    height:40px;
+    border-radius:4px;
+    outline:none;
+    border:2px solid #949494;
+}
+
+.otp_num:focus{
+    border: 2px solid;
+}
+.otp_num::-webkit-inner-spin-button,
+.otp_num::-webkit-outer-spin-button {
+    appearance: none;
+}
+
+.otpnote{
+    color:green;
+}
+
+
+.note{
+    font-size:12px;
+    margin-top:35px;
+}

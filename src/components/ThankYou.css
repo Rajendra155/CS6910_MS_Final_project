@@ -1,0 +1,47 @@
+.thankyoucontainer{
+   background:#fff;
+   min-height:100vh;
+   margin: 0 auto;
+   width:100%;
+   text-align:center;
+   padding-top:65px;
+}
+
+.logo{
+    padding-top:15px;
+    width:200px;
+    height:auto;
+}
+
+
+.rundowntext{
+    width:800px;
+    padding-top:30px;
+    margin:0 auto;
+    
+}
+
+.thbtn{
+    background:#8bca84;
+   margin-top:30px;  
+    border:1px solid #8bca84;
+    color:black;
+    border-radius:20px;
+    text-align: center;
+    width:140px;
+    height:auto;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-weight:700;
+}
+
+.heading{
+    font-size:32px;
+    font-weight:700;
+}
+.thbtn:hover{
+    background:#8bca84;
+    transition: 0.5 ease;
+    color:white;
+    cursor:pointer;
+}

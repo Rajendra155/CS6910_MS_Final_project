@@ -1,0 +1,190 @@
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    
+}
+.container{
+    
+    width:100%;
+    
+}
+
+.content-container{
+    width:475px;
+    margin:65px auto;
+    background-color:#fff;
+    padding:40px;
+    border-radius:10px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+    
+}
+
+.component-specific{
+    background:none;
+}
+
+.form-header{
+    text-align:center;
+    
+    font-family:"Poppins", Arial, Helvetica, sans-serif;
+    font-weight:600;
+    color:#2e3f51;
+    font-size:26px;
+    padding-bottom:25px;
+}
+
+.form-header-well{
+    background:#f2faff;
+    padding:20px;
+    margin-bottom:30px;
+    line-height:19px;
+    text-align:center;
+}
+
+.form-header-well .rundown1{
+    font-size:15px;
+    font-weight:700;
+    
+    color:#2e3f51;
+}
+
+.rundown2{
+    padding-top: 5px;
+}
+
+ .rundown2 a{
+    font-weight: 600;
+    color:#266aca;
+    cursor:pointer;
+}
+
+.rundown2 a:hover{
+   text-decoration:none;
+}
+
+.note{
+    font-size:14px;
+}
+
+.mainform{
+    padding-top:20px;
+}
+
+
+.form-group{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:25px;
+}
+
+
+
+.required{
+    font-family:"Poppins", Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:600;
+    margin-bottom:5px;
+    color:#2e3f51
+
+}
+
+.form-group input{
+    font-family:"Poppins", Arial, Helvetica, sans-serif;
+    border:2px solid #949494;
+    border-radius:5px;
+    padding:15px;
+    font-size:17px;
+    font-weight:400;
+}
+
+.form-group input.empty {
+   
+    border:2px solid #ba0000;
+}
+
+
+
+.form-actions{
+    padding-top:15px;
+}
+
+.btn{
+    background:#266aca;
+    border-radius:5px;
+    cursor:pointer;
+    width:100%;
+    font-weight:700;
+    color:#fff;
+    border:none;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding:15px 30px;
+    text-align:center;
+}
+
+
+.form-footer{
+    margin-top:30px;
+    text-align:center;
+}
+
+.form-footer p a{
+    font-size:15px;
+    line-height:20px;
+    font-weight:600;
+    color:#266aca;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+.form-footer p a:hover{
+    text-decoration: none;
+}
+
+.error{
+    font-size:12px;
+    color:red;
+    padding-top:7px;
+   border:none;
+}
+
+.spinner-container{
+    
+    height:100vh;
+    width:100%;
+    
+    align-items:center;
+    justify-content:center;
+  
+    
+    display:flex;
+    }
+    
+    .dots span{
+    height:5px;
+    width:5px;
+    position:absolute;
+    background-color:black;
+    transform:rotate(calc(var(--i) * (360deg /15))) translateY(20px);
+    border-radius:50px;
+    animation:animate 1.5s linear infinite;
+    animation-delay:calc(var(--i) * 0.1s);
+    opacity:0;
+    }
+
+    @keyframes animate{
+
+        0% {
+        
+        opacity:1;
+        
+        }
+        
+        100%{
+        opacity:0;
+        }
+        
+    }
+
+ 
